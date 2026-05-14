@@ -1,34 +1,35 @@
 # Banking-Application
 
-      Maximizing Profit in Retail Banking through Derivative-Based Optimization Techniques
+      AI-Driven Interest Rate Optimization for Banking Profitability
 
-Maximizing Profit in Retail Banking through Derivative-Based Optimization Techniques
+This project applies mathematical optimization and financial analytics techniques to maximize Net Interest Income (NII) in banking while considering borrower default risk.
 
-Focus: Maximize bank profit (e.g., net interest income)
+Using Python and Jupyter Notebook, the model analyzes how changes in interest rates affect bank profitability and identifies the optimal lending rate that balances revenue generation and credit risk.
 
-Sector: Retail banking
+The project demonstrates the integration of:
 
-Method: Calculus (derivatives) for optimization
+- Banking concepts
+- Credit risk modeling
+- Optimization techniques
+- Data analysis
+- Financial visualization
+
+      Business Problem
+  
+Commercial banks generate revenue primarily through interest earned on loans. However, increasing interest rates can also increase the probability of borrower default.
+The challenge is to determine:
+
+**What interest rate maximizes profitability while minimizing credit risk?**
+
+This project addresses that challenge through a derivative-based optimization model.
 
       Objectives
-
-Maximize net interest income (NII) in retail banking.
-
-Formulate a derivative-based mathematical model for optimal loan interest rates or allocation.
-
-Analyze sensitivity of profit/NII with respect to interest rates and default probabilities.
-
-Provide a decision-making framework for banking strategies.
-
-      Apparatus Required
-
-Software/Tools: Python (Jupyter Notebook), Excel
-
-Python Libraries: NumPy, Pandas, Matplotlib, SymPy
-
-Data: Simulated banking data (loan amounts, interest rates, default probabilities)
-
-Mathematical Tools: Calculus (derivatives), optimization techniques
+      
+- Model the relationship between interest rates and default probability
+- Optimize Net Interest Income (NII)
+- Analyze banking profitability using Python
+- Visualize sensitivity of NII to interest rate changes
+- Demonstrate financial analytics techniques for banking applications
 
 
 | Current Banking Practice                    | Gap                                  | Solution                                                            |
@@ -37,24 +38,46 @@ Mathematical Tools: Calculus (derivatives), optimization techniques
 | Limited understanding of NII sensitivity    | Hard to balance risk and return      | Sensitivity analysis on interest rates and default probabilities    |
 | Manual allocation of loans                  | Suboptimal profits                   | Algorithmic allocation using calculus ensures maximum profitability |
 
-      Problem Statement
+      Mathematical Model
 
-Retail banks aim to maximize profit from lending, but interest rates and default risks affect net interest income. This project develops a derivative-based optimization model to determine the interest rates and loan allocations that maximize NII, providing actionable insights for banking decision-making.
+**Optimal Interest Rate**
+ 
+ r* = (1 - d0) / (2 * k)
+ 
+Where:
+
+- r* = optimal interest rate
+- d0 = base default probability
+- k = sensitivity of default risk to interest rate
+
+**Net Interest Income Equation**
+
+NII_optimal = loan_amount * optimal_rate * (1 - (d0 + k*optimal_rate))
+
+Where:
+
+- L = loan amount
+- r = interest rate
+- d0 + kr = adjusted probability of default
+
+       Technologies Used
+
+| Technology       | Purpose                   |
+| ---------------- | ------------------------- |
+| Python           | Financial computation     |
+| Jupyter Notebook | Interactive development   |
+| NumPy            | Mathematical calculations |
+| Pandas           | Data manipulation         |
+| Matplotlib       | Data visualization        |
 
 
-       Algorithm
 
-Define Variables:
+    Author
 
-​𝐿𝑖 = Loan amount for customer i
-​𝑟𝑖 = Interest rate for customer i
-​𝑑𝑖(𝑟𝑖) = Probability of default (depends on interest rate)
+**ESSIS Desiree**
 
-Formulate NII Function:
-
-
-
-
+MBA in Data Science & Artificial Intelligence
+Focused on Banking Analytics, Financial Optimization, and AI Applications in Finance
 
 
 
