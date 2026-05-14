@@ -1,8 +1,7 @@
 # Banking-Application
+This project applies mathematical optimization and financial analytics techniques to maximize Net Interest Income (NII) in banking while considering borrower default risk.
 
       AI-Driven Interest Rate Optimization for Banking Profitability
-
-This project applies mathematical optimization and financial analytics techniques to maximize Net Interest Income (NII) in banking while considering borrower default risk.
 
 Using Python and Jupyter Notebook, the model analyzes how changes in interest rates affect bank profitability and identifies the optimal lending rate that balances revenue generation and credit risk.
 
